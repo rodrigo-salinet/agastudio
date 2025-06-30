@@ -1,0 +1,164 @@
+body {
+	scrollbar-face-color: #FFFFFF;
+	scrollbar-highlight-color: #AAAAAA;
+	scrollbar-3dlight-color: #000000;
+	scrollbar-darkshadow-color: #DDDDDD;
+	scrollbar-shadow-color: #453929;
+	scrollbar-arrow-color: #453929;
+	scrollbar-track-color: #000000;
+	margin: 0px;
+	padding: 0px;
+	background-color: #000000;
+	border: 0px;
+}
+iframe {
+	width: 100%;
+	height: 100%;
+	margin: 0px;
+	vertical-align: top;
+	text-align: center;
+	border: 0px;
+}
+body, td, marquee, div, span, a, font, input, select, textarea {
+	font-family: Tahoma, Arial, Helvetica, sans-serif;
+	font-size: 12px;
+	color: #FFFFFF;
+}
+table {
+	border-width: 0px;
+	border-style: solid;
+	border-collapse: collapse;
+	border-spacing: 0px;
+	empty-cells: show;
+}
+td {
+	padding: 0px;
+	vertical-align: middle;
+	border-width: 0px;
+	border-style: solid;
+}
+img {
+	border: 0px;
+}
+a:link {
+	text-decoration: none;
+	color: #FFFFFF;
+}
+a:hover {
+	text-decoration: underline;
+	color: #CCCCCC;
+}
+a:visited {
+	text-decoration: none;
+	color: #0000FF;
+}
+.rolagem {
+	overflow: auto;
+}
+.tbl {
+	width: 100%;
+	height: 100%;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}
+.pg {
+	width: 100%;
+	vertical-align: top;
+}
+.tbl_menu {
+	filter: Glow(Color=#000000, Strength=2);
+	width: 0.01%;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 12px;
+	padding: 1px;
+	border-right: 1px dotted #AAAAAA;
+}
+.menu_adm {
+	width: 0.01%;
+	vertical-align: middle;
+	text-align: center;
+	font-size: 12px;
+	padding: 1px;
+	border: 1px solid #000000;
+}
+.sombra {
+	filter: DropShadow(Color=#000000, OffX=2, OffY=2, Positive=1);
+}
+.saudacao {
+	filter: Glow(Color=#000000, Strength=2);
+	color: #FFFFFF;
+	white-space: nowrap;
+	vertical-align: bottom;
+	text-align: center;
+	font-size: 9px;
+	padding-right: 5px;
+}
+.menu_contexto {
+	position: absolute;
+	display: none;
+	background-color: #FFFFFF;
+	filter: Alpha(Opacity=80, FinishOpacity=80, Style=10, StartX=10, StartY=100, FinishX=10, FinishY=100);
+	z-index: 10;
+	cursor: hand;
+}
+.cel_menu_contexto {
+	white-space: nowrap;
+	font-family: Helvetica, sans-serif, Verdana, Arial;
+	border-bottom: 1px dashed #000000;
+	padding: 2px;
+	color: #000000;
+}
+.avisos {
+	position: absolute;
+	z-index: 10;
+	background-color: #FFFFFF;
+	filter: Alpha(Opacity=50, FinishOpacity=50, Style=10, StartX=10, StartY=100, FinishX=10, FinishY=100);
+	font-size: 14px;
+	font-weight: bolder;
+}
+.tbl_calendario {
+	border-width: 2px;
+	border-style: solid;
+	border-color: #CCCCCC;
+	width: 100%;
+}
+.cel_calendario {
+	border-width: 1px;
+	border-style: solid;
+	border-color: #CCCCCC;
+	text-align: center;
+	padding: 1px;
+	cursor: default;
+	font-size: 9px;
+}
+.menu_home {
+	border: 0px;
+	padding: 10px;
+	font-size: 36px;
+	font-weight: bold;
+}
+.produtos {
+	text-align: center;
+}
+.img_produto {
+	border: 0px;
+	width: 300px;
+	height: 200px;
+}
+.numeros {
+	color: #FF0000;
+	cursor: hand;
+	padding-right: 2px;
+	padding-left: 2px;
+}
+.td_login {
+	color: #000000;
+}
+.fale_conosco {
+	border-color: #FFFFFF;
+	border-style: solid;
+	border-width: 1px;
+	background-color: #000000;
+}
